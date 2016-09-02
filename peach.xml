@@ -16,6 +16,4 @@
 <project name="BenefitA3/android_device_ark_peach" path="device/ark/peach" remote="github" revision="cm-13.0" />
 <!-- Kernel -->
 <project name="BenefitA3/kernel_cyanogen_msm8916" path="kernel/cyanogen/msm8916" remote="github" revision="cm-13.0-arm" />
-<!-- CMUpdater -->
-<project name="BenefitA3/android_packages_apps_CMUpdater" path="packages/apps/CMUpdater" remote="github" revision="cm-13.0" />
 </manifest>
