@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-<!-- Remove CMUpdater APP -->
-<remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
 <!-- Common MSM8916 device tree -->
-<project name="BenefitA3/android_device_ark_msm8916-common" path="device/ark/msm8916-common" remote="github" revision="cm-13.0" />
+<project name="BenefitA3/android_device_ark_msm8916-common" path="device/ark/msm8916-common" remote="github" revision="cm-14.1" />
 <!-- Qualcomm Device Addons -->
-<project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-13.0" />
+<project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-14.1" />
 <!-- Vendor Blobs -->
-<project name="BenefitA3/proprietary_vendor_ark" path="vendor/ark" remote="github" revision="cm-13.0" />
+<project name="BenefitA3/proprietary_vendor_ark" path="vendor/ark" remote="github" revision="cm-14.1" />
 <!-- Device tree -->
-<project name="BenefitA3/android_device_ark_peach" path="device/ark/peach" remote="github" revision="cm-13.0" />
+<project name="BenefitA3/android_device_ark_peach" path="device/ark/peach" remote="github" revision="cm-14.1" />
 <!-- Kernel -->
-<project name="BenefitA3/android_kernel_ark_msm8916" path="kernel/ark/msm8916" remote="github" revision="cm-13.0" />
-<!-- Custom OTAUpdates app -->
-<project name="BenefitA3/OTAUpdates" path="packages/apps/OTAUpdates" remote="github" revision="aosp" />
+<project name="BenefitA3/android_kernel_ark_msm8916" path="kernel/ark/msm8916" remote="github" revision="cm-14.1-wip" />
 </manifest>
